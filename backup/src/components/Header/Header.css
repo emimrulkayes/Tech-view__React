@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 :root {
-    --navbar-background-color: #0e0a31;
+    --navbar-background-color: #333;
     --white-color: #fff;
 }
 /* Navbar  */

@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import MainComponent from './components/MainComponent/MainComponent';
+
 import Dashboard from './components/dashboard/Dashboard';
 import { Switch, Route } from 'react-router-dom';
 import ErrorPage from './components/ErrorPage/ErrorPage';

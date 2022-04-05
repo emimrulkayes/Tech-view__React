@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+:root{
+    --text-color-gray-600: #333;
+    --blue-color-800: #0069d9;
+}
+.sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 80vh;
+}
+.sections h4{
+    font-size: 3rem;
+    color: var(--text-color-gray-600);
+}
+
+.sections p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 17px;
+}
+.sections  button {
+    padding: 20px 50px;
+    background-color: var(--blue-color-800);
+    color: var(--white-color);
+    cursor: pointer;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    border-radius: 3px;
+    margin-block-start: 10px;
+}
+
+.sections img{
+    width: 400px;
+}
+
+/* Section Two Code Start Here */
+.section_two h1{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.3px;
+}
+.section_two .line_throw {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.section_two .line_throw .line{
+    width: 150px;
+    height: 4px;
+    background-color: var(--blue-color-800);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.section_two ._paoao{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.section_two .boxed{
+    width: 292px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 40px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-block-start: 30px;
+}
+.section_two .boxed img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.section_two .boxed .stars{
+    display: flex;
+    margin-left: 10px;
+}
+.section_two .boxed ._padik{
+    display: flex;
+    align-items: center;
+}
+.section_two .boxed h6{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+}
+.section_two .boxed p{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    margin-block-start: 5px;
+}
+
+.section_two .all_review{
+    display: flex;
+    justify-content: center;
+    margin-block-start: 20px;
+}
+.section_two .all_review a{
+    border: none;
+    padding: 15px 40px;
+    background-color: var(--blue-color-800);
+    border-radius: 3px;
+    text-decoration: none;
+    color: var(--white-color);
+    -webkit-border-radius: 3px;
+    text-transform: uppercase;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}

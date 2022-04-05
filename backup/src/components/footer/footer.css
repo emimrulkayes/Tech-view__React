@@ -1,0 +1,28 @@
+:root {
+    --black_color-600: #333;
+}
+.footer {
+
+    background-color: var(--black_color-600);
+    padding: 30px;
+    margin-top: 30px;
+    color: #fff;
+}
+.footer ._p_2_s_3_x_4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .bottom_links ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.footer .bottom_links ul li a {
+    color: #ffff;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+}

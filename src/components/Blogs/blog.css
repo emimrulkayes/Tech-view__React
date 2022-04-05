@@ -1,0 +1,29 @@
+
+
+.blogs {
+    padding-top: 20px;
+}
+.blogs h2{
+    font-size: 2rem;
+    margin-left: 20px;
+    
+}
+.blogs p {
+    font-size: 13px;
+    margin-left: 20px;
+    line-height: 19px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: black;
+
+}
+.blogs .inline{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.blogs .inline h3{
+    font-size: 18px;
+}
+.blogs .inline p{
+    color: black;
+}
