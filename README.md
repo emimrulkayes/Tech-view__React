@@ -4,7 +4,7 @@ Live Website Link:
 [Tech view](https://tech-view.netlify.app/).
 
 Private repo link:  
-[https://github.com/programming-hero-web-course-4/product-analysis-website-emimrulkayes].
+[https://github.com/programming-hero-web-course-4/product-analysis-website-emimrulkayes](https://github.com/programming-hero-web-course-4/product-analysis-website-emimrulkayes)
 
 
 ## Available Scripts
