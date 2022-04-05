@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Tech view - A awesome electronics store.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Website Link: 
+[Tech view](https://tech-view.netlify.app/).
+
+Private repo link:  
+[https://github.com/programming-hero-web-course-4/product-analysis-website-emimrulkayes].
+
 
 ## Available Scripts
 
