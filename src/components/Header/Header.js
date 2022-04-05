@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+import './Header.css';
 
 import './Header.css'
 
@@ -8,15 +10,15 @@ const Header = () => {
         <>
             <Navbar bg="info" expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">Tech-view</Navbar.Brand>
+                    <Navbar.Brand href="/">Tech-view</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link to="/">Home</Nav.Link>
-                        <Nav.Link to="/about">About</Nav.Link>
-                        <Nav.Link to="/review">Review</Nav.Link>
-                        <Nav.Link to="/dashboard">Dashboard</Nav.Link>
-                        <Nav.Link to="/blogs">Blogs</Nav.Link>
+                        <NavLink className={({ isActive }) => isActive ? 'active-link' : "nav-link"} to="/">Home</NavLink>
+                        <NavLink className={({ isActive }) => isActive ? 'active-link' : "nav-link"} to="/about">About</NavLink>
+                        <NavLink className={({ isActive }) => isActive ? 'active-link' : "nav-link"} to="/review">Review</NavLink>
+                        <NavLink className={({ isActive }) => isActive ? 'active-link' : "nav-link"} to="/dashboard">Dashboard</NavLink>
+                        <NavLink className={({ isActive }) => isActive ? 'active-link' : "nav-link"} to="/blogs">Blogs</NavLink>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>

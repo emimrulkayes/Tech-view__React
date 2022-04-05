@@ -1,12 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 const CustomerReview = () => {
-    const [customer, setCustomer] = useState([]);
-    useEffect( () =>{
-        fetch()
-    }, [])
-
-
     return (
         <div>
             

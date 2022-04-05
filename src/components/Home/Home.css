@@ -1,5 +1,9 @@
+
+.hero-area {
+    padding: 80px 0;
+}
 .hero-content .title{
-    font-size: 4.8rem;
+    font-size: 48px;
     color: black;
     font-weight: 700;
 }
